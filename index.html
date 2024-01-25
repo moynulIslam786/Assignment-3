@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daisy UI</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    
+    
+</head>
+<body>
+    <!-- navbar -->
+    <div class="container mx-auto lg:px-24 px-8 my-8">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <!-- <li>
+                    <a>Parent</a>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </li> -->
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-xl">hockey's</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                <!-- <li><a>Item 1</a></li>
+                <li>
+                  <details>
+                    <summary>Parent</summary>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </details>
+                </li>
+                <li><a>Item 3</a></li> -->
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn">Get ticket</a>
+            </div>
+          </div>
+    </div>
+    
+
+
+   <!-- slider -->
+   <section>
+    <div class="mx-auto px-24 py-8 my-8">
+        <div class=" carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(../images/1.png)] bg-no-repeat py-64">
+              
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(../images/trofee.jpg)] bg-no-repeat py-64">
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div>        
+          </div>
+          <div class="h-[10vh] w-1/2 mx-auto bg-black -translate-y-20 ">
+    
+          </div>
+       </div>
+   </section>
+
+   <!-- program sections -->
+   <section >
+        <h1 class="text-center font-bold text-4xl">Program Sections</h1>
+        <p class="text-center mb-5">"Distinct program sections seamlessly integrate to provide a comprehensive and cohesive user experience."</p>
+        <div class="flex flex-row items-center justify-center gap-x-5">
+          <div id="slide2" class="bg-[url(../images/2.png)] bg-no-repeat px-48 py-52">
+            
+        </div> 
+
+           <div class="bg-[url(../images/3.png)] bg-no-repeat px-48 py-52 ">
+
+           </div>           
+        </div>
+
+        <div class="flex items-center justify-center">
+          <div class="bg-[url(../images/3.png)] bg-no-repeat px-96 py-52 ">
+            
+          </div>
+        </div>
+        
+   </section>
+
+   <!-- our new products -->
+   <h1 class="text-center font-bold text-4xl">Program Sections</h1>
+   <p class="text-center mb-5">"Distinct program sections seamlessly integrate to provide a comprehensive and cohesive user experience."</p>
+
+   <div class="mt-12 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-y-4 items-center justify-center place-items-center">
+     <div class="flex gap-x-5">
+      <div>
+        <img src="images/5.png" alt="">
+      </div>
+      <div >
+        <div class="flex gap-x-2">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+        <p>5.0</p>
+        <p>20</p>
+        <p>250</p>
+        </div>
+        <div>
+          <h4 class="text-center font-bold text-1xl">World Cup Flags Football</h4>
+          <p>The FIFA Club World Cup</p>
+          <h6 class="font-bold text-1xl text-red-600">Price-$22.00</h6>
+          <p>Delivery fee-Free.</p>
+        </div>
+        
+
+      </div>
+     </div>
+     <div class="flex gap-x-5">
+      <div>
+        <img src="images/6.png" alt="">
+      </div>
+      <div >
+        <div class="flex gap-x-2">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+        <p>5.0</p>
+        <p>20</p>
+        <p>250</p>
+        </div>
+        <div>
+          <h4 class="text-center font-bold text-1xl">World Cup Flags Football</h4>
+          <p>The FIFA Club World Cup</p>
+          <h6 class="font-bold text-1xl text-red-600">Price-$22.00</h6>
+          <p>Delivery fee-Free.</p>
+        </div>
+        
+
+      </div>
+     </div>
+     <div class="flex gap-x-5">
+      <div>
+        <img src="images/7.png" alt="">
+      </div>
+      <div >
+        <div class="flex gap-x-2">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+        <p>5.0</p>
+        <p>20</p>
+        <p>250</p>
+        </div>
+        <div>
+          <h4 class="text-center font-bold text-1xl">World Cup Flags Football</h4>
+          <p>The FIFA Club World Cup</p>
+          <h6 class="font-bold text-1xl text-red-600">Price-$22.00</h6>
+          <p>Delivery fee-Free.</p>
+        </div>
+        
+
+      </div>
+     </div>
+     <div class="flex gap-x-5">
+      <div>
+        <img src="images/8.png" alt="">
+      </div>
+      <div >
+        <div class="flex gap-x-2">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+        <p>5.0</p>
+        <p>20</p>
+        <p>250</p>
+        </div>
+        <div>
+          <h4 class="text-center font-bold text-1xl">World Cup Flags Football</h4>
+          <p>The FIFA Club World Cup</p>
+          <h6 class="font-bold text-1xl text-red-600">Price-$22.00</h6>
+          <p>Delivery fee-Free.</p>
+        </div>
+        
+
+      </div>
+     </div>
+     <div class="flex gap-x-5">
+      <div>
+        <img src="images/9.png" alt="">
+      </div>
+      <div >
+        <div class="flex gap-x-2">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+        <p>5.0</p>
+        <p>20</p>
+        <p>250</p>
+        </div>
+        <div>
+          <h4 class="text-center font-bold text-1xl">World Cup Flags Football</h4>
+          <p>The FIFA Club World Cup</p>
+          <h6 class="font-bold text-1xl text-red-600">Price-$22.00</h6>
+          <p>Delivery fee-Free.</p>
+        </div>
+        
+
+      </div>
+     </div>
+     <div class="flex gap-x-5">
+      <div>
+        <img src="images/10.png" alt="">
+      </div>
+      <div >
+        <div class="flex gap-x-2">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-yellow-400" />
+        <p>5.0</p>
+        <p>20</p>
+        <p>250</p>
+        </div>
+        <div>
+          <h4 class="text-center font-bold text-1xl">World Cup Flags Football</h4>
+          <p>The FIFA Club World Cup</p>
+          <h6 class="font-bold text-1xl text-red-600">Price-$22.00</h6>
+          <p>Delivery fee-Free.</p>
+        </div>
+        
+
+      </div>
+     </div>
+     
+
+     <!-- <div>
+      <img src="images/6.png" alt="">
+     </div>
+
+     <div>
+      <img src="images/7.png" alt="">
+     </div>
+
+     <div>
+      <img src="images/8.png" alt="">
+     </div>
+
+     <div>
+      <img src="images/9.png" alt="">
+     </div>
+     <div>
+      <img src="images/10.png" alt="">
+     </div> -->
+   </div>
+
+
+    <!-- clients question -->
+    <section class="mt-5 mx-10 my-10">
+
+        <h1 class="text-center font-bold text-4xl">Clients Question</h1>
+        <p class="text-center mb-5">"Addressing clients' inquiries with precision and professionalism to foster trust and satisfaction."</p>
+
+        <div class="flex flex-col md:flex-row justify-center gap-x-5">
+            <div >
+                <img src="images/11.png" alt="">
+            </div>
+
+            <div class="flex flex-col gap-y-2">
+                <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" checked="checked" /> 
+                    <div class="collapse-title text-xl font-medium">
+                        Our Equipment
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>"Our state-of-the-art equipment is designed to meet and exceed client expectations, ensuring top-notch performance and reliability."</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                        Hockey Training
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                        Private Lessons
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Ski Touring
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Booking
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-plus bg-base-200">
+                    <input type="radio" name="my-accordion-3" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      Pricing
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+            </div>
+            
+        </div>
+
+        
+    </section>
+
+    <section >
+      <div class="container mx-auto lg:px-24 px-8 my-8">
+        <h1 class="text-center font-bold text-4xl">Clients Question</h1>
+        <p class="text-center mb-5">"Addressing clients' inquiries with precision and professionalism to foster trust and satisfaction."</p>
+
+        <div class="flex flex-col md:flex-row justify-between gap-x-5">
+          <div class="flex flex-col  gap-y-12">
+            <div>
+              <img src="images/Group 1171275317.png" alt="">
+              <p>Phone Number : <br>
+                <span class="text-1xl font-bold">(+62) 123-321-543</span></p>
+            </div>
+            <div>
+              <img src="images/Group 1171275318.png" alt="">
+              <p>Email : <br>
+                <span class="text-1xl font-bold">hockeys@support.com</span></p>
+            </div>
+            <div>
+              <img src="images/Group 1171275321.png" alt="">
+              <p>Location : <br>
+                <span class="text-1xl font-bold">152/1 Mohakhali Wireless Gate</span></p>
+                
+  
+            </div>
+          </div>
+          <div>
+            <form>
+              <label for="text">Your Name</label><br>
+              <input type="text" placeholder="Enter your full name"><br>
+
+              <label for="text">Email</label><br>
+              <input type="text" placeholder="Enter your full name"><br>
+
+              <label for="text">Subject</label><br>
+              <input type="text" placeholder="Enter your full name"><br>
+
+              <label for="text">Phone number</label><br>
+              <input type="text" placeholder="Enter your full name">
+              
+            </form>
+          </div>
+        </div>
+
+
+      </div>
+     
+    </section>
+
+    
+
+    <footer>
+      <section >
+        <div class=" grid grid-cols-1 md:grid-cols-4 text-white">
+          <div class="container mx-auto lg:px-24 px-8 my-8">
+            <h3 class="left-0 font-bold text-1xl">Get in touch</h3>
+            <p class="left-0">Feel free to get in touch for any <br>inquiries or assistance – we're here to help!</p>
+            
+            <div class="flex gap-x-2"> 
+              <i class="fas fa-envelope place-items-center"></i>
+              <p>hockeys@support.com</p>
+            </div>
+
+            <div class="flex gap-x-2"> 
+              <i class="fas fa-address-book"></i>
+              <p>(+62) 123-321-543</p>
+            </div>
+          </div>
+          <div class="container mx-auto lg:px-24 px-8 my-8">
+              <h4 class="left-0 font-bold text-1xl mb-5">Company</h4>
+              <ul>
+                <li>About us </li>
+                <li>Leadership</li>
+                <li>Careers</li>
+                <li>News & Article</li>
+                <li>Legal Notice</li>
+              </ul>
+          </div>
+          <div class="container mx-auto lg:px-24 px-8 my-8">
+            <h4 class="left-0 font-bold text-1xl mb-5">Support</h4>
+              <ul>
+                <li>Help Center</li>
+                <li>FAQ</li>
+                <li>Ticket Support</li>
+                <li>Contact Us</li>
+              </ul>
+          </div>
+          <div class="container mx-auto lg:px-24 px-8 my-8">
+            <h4 class="left-0 font-bold text-1xl mb-5">Services</h4>
+            <ul>
+              <li>Academy</li>
+              <li>Group Lesson</li>
+              <li>Private Lesson</li>
+              <li>Hockeys for kids</li>
+              <li>Hockeys for Adult</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+</body>
+</html>
